@@ -9,7 +9,7 @@
     ],
     "routes":[
         {
-            "src":"/(.*)",
+            "src":"/templates(.*)",
             "dest":"app4.py"
         }
         
