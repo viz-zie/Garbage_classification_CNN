@@ -1,5 +1,5 @@
 {
-    "version":2,
+   
     "builds":[
         {
             "src":"app4.py",
@@ -9,7 +9,7 @@
     ],
     "routes":[
         {
-            "src":"/templates(.*)",
+            "src":"/(.*)",
             "dest":"app4.py"
         }
         
